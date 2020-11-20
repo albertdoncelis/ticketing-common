@@ -1,7 +1,7 @@
 import {Subjects} from "./subjects";
 
 export interface TicketUpdatedEvent {
-  readonly subject: Subjects.TicketCreated
+  readonly subject: Subjects.TicketUpdated
 
   readonly data: {
     id: string,

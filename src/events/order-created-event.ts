@@ -4,7 +4,7 @@ import {OrderStatus} from "./types/order-status";
 export interface OrderCreatedEvent {
   readonly subject: Subjects.OrderCreated
 
-  readonly data: {
+  data: {
     id: string,
     status: OrderStatus,
     userId: string,
